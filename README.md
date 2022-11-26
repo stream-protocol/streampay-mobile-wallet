@@ -1,6 +1,6 @@
 ## Stream Mobile Wallet
 
-A Stream Mobile Wallet in flutter
+A StreamPay Mobile Wallet in flutter
 
 Features:
 - Add New Wallet
