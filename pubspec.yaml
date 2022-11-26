@@ -15,7 +15,7 @@ dependencies:
   passcode_screen: ^2.0.0
   solana: 
     git: 
-      url: https://github.com/stream-protocol/streampay-mobile-wallet.git
+      url: git://github.com/cryptoplease/cryptoplease-dart.git
       path: packages/solana
   redux: ^5.0.0
   flutter_redux: ^0.8.2
