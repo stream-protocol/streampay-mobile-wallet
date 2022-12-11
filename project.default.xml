@@ -1,0 +1,284 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ProjectCodeStyleConfiguration">
+        <code_scheme name="Project" version="173">
+          <codeStyleSettings language="XML">
+            <indentOptions>
+              <option name="CONTINUATION_INDENT_SIZE" value="4" />
+            </indentOptions>
+            <arrangement>
+              <rules>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>xmlns:android</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>xmlns:.*</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                    <order>BY_NAME</order>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*:id</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*:name</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>name</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>style</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                    <order>BY_NAME</order>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                    <order>ANDROID_ATTRIBUTE_ORDER</order>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>.*</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                    <order>BY_NAME</order>
+                  </rule>
+                </section>
+              </rules>
+            </arrangement>
+          </codeStyleSettings>
+        </code_scheme>
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State />
+              <State>
+                <id>Flutter</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Flutter</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+        <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+      </component>
+      <component name="RunDashboard">
+        <option name="ruleStates">
+          <list>
+            <RuleState>
+              <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+            </RuleState>
+            <RuleState>
+              <option name="name" value="StatusDashboardGroupingRule" />
+            </RuleState>
+          </list>
+        </option>
+      </component>
+      <component name="RunManager">
+        <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+          <option name="DEPLOY" value="true" />
+          <option name="DEPLOY_APK_FROM_BUNDLE" value="true" />
+          <option name="DEPLOY_AS_INSTANT" value="true" />
+          <option name="ARTIFACT_NAME" value="" />
+          <option name="PM_INSTALL_OPTIONS" value="" />
+          <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+          <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+          <option name="MODE" value="default_activity" />
+          <option name="CLEAR_LOGCAT" value="false" />
+          <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+          <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+          <option name="FORCE_STOP_RUNNING_APP" value="true" />
+          <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+          <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+          <option name="PREFERRED_AVD" value="" />
+          <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+          <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+          <option name="DEBUGGER_TYPE" value="Auto" />
+          <Auto>
+            <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+            <option name="SHOW_STATIC_VARS" value="true" />
+            <option name="WORKING_DIR" value="" />
+            <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+            <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+          </Auto>
+          <Hybrid>
+            <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+            <option name="SHOW_STATIC_VARS" value="true" />
+            <option name="WORKING_DIR" value="" />
+            <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+            <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+          </Hybrid>
+          <Java />
+          <Native>
+            <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+            <option name="SHOW_STATIC_VARS" value="true" />
+            <option name="WORKING_DIR" value="" />
+            <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+            <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+          </Native>
+          <Profilers>
+            <option name="ADVANCED_PROFILING_ENABLED" value="true" />
+            <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+            <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+          </Profilers>
+          <option name="DEEP_LINK" value="" />
+          <option name="ACTIVITY_CLASS" value="" />
+          <method v="2">
+            <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+          </method>
+        </configuration>
+        <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+          <option name="TESTING_TYPE" value="0" />
+          <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+          <option name="METHOD_NAME" value="" />
+          <option name="CLASS_NAME" value="" />
+          <option name="PACKAGE_NAME" value="" />
+          <option name="EXTRA_OPTIONS" value="" />
+          <option name="CLEAR_LOGCAT" value="false" />
+          <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+          <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+          <option name="FORCE_STOP_RUNNING_APP" value="true" />
+          <option name="TARGET_SELECTION_MODE" value="FIREBASE_DEVICE_MATRIX" />
+          <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+          <option name="PREFERRED_AVD" value="" />
+          <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+          <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+          <option name="DEBUGGER_TYPE" value="Auto" />
+          <Auto>
+            <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+            <option name="SHOW_STATIC_VARS" value="true" />
+            <option name="WORKING_DIR" value="" />
+            <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+            <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+          </Auto>
+          <Hybrid>
+            <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+            <option name="SHOW_STATIC_VARS" value="true" />
+            <option name="WORKING_DIR" value="" />
+            <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+            <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+          </Hybrid>
+          <Java />
+          <Native>
+            <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+            <option name="SHOW_STATIC_VARS" value="true" />
+            <option name="WORKING_DIR" value="" />
+            <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+            <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+          </Native>
+          <Profilers>
+            <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+            <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+            <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+          </Profilers>
+          <method v="2">
+            <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+          </method>
+        </configuration>
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="Copyright.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

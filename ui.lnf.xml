@@ -1,0 +1,8 @@
+<application>
+  <component name="UISettings">
+    <option name="DND_WITH_PRESSED_ALT_ONLY" value="true" />
+    <option name="LEFT_HORIZONTAL_SPLIT" value="true" />
+    <option name="MOVE_MOUSE_ON_DEFAULT_BUTTON" value="true" />
+    <option name="WIDESCREEN_SUPPORT" value="true" />
+  </component>
+</application>

@@ -1,0 +1,155 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor>
+      <key-repeat enabled="true" />
+    </editor>
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts />
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/pubspec.yaml" timestamp="1670748165893">
+        <mark key="[" line="0" column="6" />
+        <mark key="]" line="0" column="6" />
+        <mark key="." line="0" column="6" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/pages/pin_code.dart" timestamp="1670746746069">
+        <mark key="[" line="122" column="46" />
+        <mark key="]" line="122" column="46" />
+        <mark key="." line="122" column="46" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/android/app/src/main/kotlin/app/example/stream_wallet/MainActivity.kt" timestamp="1670745145882">
+        <mark key="[" line="0" column="8" />
+        <mark key="]" line="0" column="8" />
+        <mark key="." line="0" column="8" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/LICENSE.md" timestamp="1670745797712">
+        <mark key="[" line="2" column="23" />
+        <mark key="]" line="2" column="23" />
+        <mark key="." line="2" column="23" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/android/app/src/profile/AndroidManifest.xml" timestamp="1670744075049">
+        <mark key="[" line="1" column="16" />
+        <mark key="]" line="1" column="16" />
+        <mark key="." line="1" column="16" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/pages/send.dart" timestamp="1670744586922" />
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/pages/password.dart" timestamp="1670743899919">
+        <mark key="[" line="149" column="44" />
+        <mark key="]" line="149" column="44" />
+        <mark key="." line="149" column="44" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/android/app/build.gradle" timestamp="1670744115080" />
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/android/app/src/main/AndroidManifest.xml" timestamp="1670745230063" />
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/README.md" timestamp="1670745903771">
+        <mark key="[" line="7" column="42" />
+        <mark key="]" line="7" column="42" />
+        <mark key="." line="7" column="42" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/pages/my_wallet.dart" timestamp="1670746608597">
+        <mark key="[" line="414" column="34" />
+        <mark key="]" line="414" column="34" />
+        <mark key="." line="414" column="34" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/android/app/src/debug/AndroidManifest.xml" timestamp="1670745183537">
+        <mark key="[" line="1" column="13" />
+        <mark key="]" line="1" column="13" />
+        <mark key="." line="1" column="13" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/test/widget_test.dart" timestamp="1670745597776" />
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/web/manifest.json" timestamp="1670745648285">
+        <mark key="'" line="7" column="32" />
+        <mark key="[" line="7" column="32" />
+        <mark key="]" line="7" column="32" />
+        <mark key="." line="7" column="32" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1670749170736">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/pages/pages.dart" timestamp="1670743722564">
+        <mark key="'" line="33" column="30" />
+        <mark key="[" line="33" column="29" />
+        <mark key="]" line="33" column="29" />
+        <mark key="." line="33" column="29" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/pages/receive.dart" timestamp="1670744339619">
+        <mark key="[" line="155" column="102" />
+        <mark key="]" line="155" column="102" />
+        <mark key="." line="155" column="102" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/state/store.dart" timestamp="1670744935393" />
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/pages/main_home.dart" timestamp="1670743213806">
+        <mark key="[" line="39" column="34" />
+        <mark key="]" line="39" column="34" />
+        <mark key="." line="39" column="34" />
+      </file>
+      <file name="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/web/index.html" timestamp="1670745622026" />
+    </filemarks>
+    <jumps>
+      <jump line="33" column="30" filename="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/lib/pages/pages.dart" />
+      <jump line="7" column="32" filename="$USER_HOME$/Stream Protocol/StreamPay Wallet/streampay_app/web/manifest.json" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="2">
+        <text>commiy´</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text>commiy´</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">IiMiCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text>2</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Q29weXJpZ2h0IChjKSBNYXJjIEVzcMOtbiBTYW56Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IENvbG9yKDB4ZmYwMDMyNzEpLAo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICJkZXNjcmlwdGlvbiI6ICJBIG5ldyBGbHV0dGVyIHByb2plY3QuIiwK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRpdGxlOiBjb25zdCBUZXh0KCdNYWRlIGJ5IE1hcmMgRXNww61uJyksCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Q29weXJpZ2h0IChjKSAyMDIyIEZ5ZnkgTGFicwo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">IyMgRnlmeSBNb2JpbGUgV2FsbGV0Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>Sstream_pay</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>
