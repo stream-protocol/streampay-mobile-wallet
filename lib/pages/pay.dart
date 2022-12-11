@@ -66,21 +66,21 @@ class PayState extends State<PayWidget> {
                     children: [
                       Column(
                         children: [
-                          Text("Send money", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+                          Text("Send money", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.w600)),
                           SizedBox(height: 20,),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              Text(amountValue.toString(), style: TextStyle(color: Color(0xff00051e), fontSize: 60, fontWeight: FontWeight.bold)),
-                              Text("\$", style: TextStyle(color: Color(0xff00051e), fontSize: 40,)),
+                              Text(amountValue.toString(), style: TextStyle(color: Color(0xff051150), fontSize: 60, fontWeight: FontWeight.bold)),
+                              Text("\$", style: TextStyle(color: Color(0xff051150), fontSize: 40,)),
                             ],
                           ),
                           SizedBox(height: 20,),
-                          Icon(CupertinoIcons.arrow_down, size: 36, color: Color(0xff00051e),),
+                          Icon(CupertinoIcons.arrow_down, size: 36, color: Color(0xff051150),),
                           SizedBox(height: 20,),
                           Padding(
                             padding: EdgeInsets.symmetric(horizontal: 30),
-                            child: Text(address, textAlign: TextAlign.center, style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w600)),
+                            child: Text(address, textAlign: TextAlign.center, style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600)),
                           ),
                           SizedBox(height: 20,),
                           Container(
@@ -88,7 +88,7 @@ class PayState extends State<PayWidget> {
                             padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
                             decoration: BoxDecoration(
                                 border: Border.all(
-                                    width: 1, color: Color(0xff00051e)
+                                    width: 1, color: Color(0xff051150)
                                 ),
                                 borderRadius: BorderRadius.circular(5)
                             ),
@@ -109,21 +109,21 @@ class PayState extends State<PayWidget> {
                                       ),
                                     ),
                                   ),
-                                  // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                                  // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00264E), fontSize: 18, fontWeight: FontWeight.w400)),
                                 ),
 
                               ],
                             ),
                           ),
                           SizedBox(height: 10,),
-                          Text("Choose Wallet", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                          Text("Choose Wallet", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w400)),
                           SizedBox(height: 10,),
                           Container(
                               width: config.App(context).appWidth(80),
                               padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
                               decoration: BoxDecoration(
                                   border: Border.all(
-                                      width: 1, color: Color(0xff00051e)
+                                      width: 1, color: Color(0xff051150)
                                   ),
                                   borderRadius: BorderRadius.circular(5)
                               ),
@@ -132,21 +132,21 @@ class PayState extends State<PayWidget> {
                                   Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Image.asset('assets/img/icon_wallet.png',color: Color(0xff00051e)),
+                                      Image.asset('assets/img/icon_wallet.png',color: Color(0xff051150)),
                                       SizedBox(
                                         width: config.App(context).appWidth(70),
                                         child: DropdownButton<String>(
                                           underline: SizedBox(),
                                           iconSize: 24,
                                           elevation: 16,
-                                          style: TextStyle(color: Color(0xff00051e)),
-                                          icon: Icon(Icons.arrow_forward_ios_rounded , color: Color(0xff00051e),),
+                                          style: TextStyle(color: Color(0xff051150)),
+                                          icon: Icon(Icons.arrow_forward_ios_rounded , color: Color(0xff051150),),
                                           items: store.state.accounts.entries.map((wallet) {
                                             return DropdownMenuItem<String>(
                                                 value: wallet.key,
                                                 child: SizedBox(
                                                   width: config.App(context).appWidth(70),
-                                                  child : Text(wallet.value.address, style: TextStyle(color: Color(0xff00051e)),),
+                                                  child : Text(wallet.value.address, style: TextStyle(color: Color(0xff051150)),),
                                                 )
                                             );
                                           }).toList(),
@@ -172,7 +172,7 @@ class PayState extends State<PayWidget> {
                                           height: 50,
                                           child: Center(
                                             child: Text(selectedWalletAddress, overflow: TextOverflow.ellipsis,
-                                                style: TextStyle(color: Color(0xff00051e), fontSize: 14, fontWeight: FontWeight.w400)),
+                                                style: TextStyle(color: Color(0xff051150), fontSize: 14, fontWeight: FontWeight.w400)),
                                           )
                                       )
                                     ],
@@ -187,7 +187,7 @@ class PayState extends State<PayWidget> {
                             width: config.App(context).appWidth(80),
                             buttonWidth: config.App(context).appWidth(20),
                             color: Colors.white,
-                            // buttonColor: Color(0xff00072c),
+                            // buttonColor: Color(0xff0049b0),
                             dismissible: false,
                             initialPosition: SlidableButtonPosition.left,
                             label: Container(
@@ -195,7 +195,7 @@ class PayState extends State<PayWidget> {
                               padding: EdgeInsets.symmetric(horizontal: 10),
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.all(Radius.circular(5)),
-                                color: Color(0xff00072c),
+                                color: Color(0xff0049b0),
                               ),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
@@ -260,7 +260,7 @@ class PayState extends State<PayWidget> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,

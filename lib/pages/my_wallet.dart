@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:streampay/components/network_selector.dart';
+import 'package:fyfypay/components/network_selector.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tuple/tuple.dart';
 import '../state/store.dart';
@@ -65,7 +65,7 @@ class WatchAddressState extends State<WatchAddress> {
                 padding: EdgeInsets.only(top: config.App(context).appWidth(33)),
                 child: Column(
                   children: [
-                    Text("Balance", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+                    Text("Balance", style: TextStyle(color: Color(0xff00264E), fontSize: 24, fontWeight: FontWeight.w600)),
                     SizedBox(
                       width: config.App(context).appWidth(100),
                       child: Row(
@@ -75,7 +75,7 @@ class WatchAddressState extends State<WatchAddress> {
                             solBalance.toString(),
                             style: GoogleFonts.poppins(
                               textStyle: TextStyle(
-                                  fontSize: 50, color: Color(0xff00051e)
+                                  fontSize: 50, color: Color(0xff00264E)
                               ),
                             ),
                           ),
@@ -92,7 +92,7 @@ class WatchAddressState extends State<WatchAddress> {
                             usdcBalance.toString(),
                             style: GoogleFonts.poppins(
                               textStyle: TextStyle(
-                                  fontSize: 50, color: Color(0xff00051e)
+                                  fontSize: 50, color: Color(0xff00264E)
                               ),
                             ),
                           ),
@@ -147,7 +147,7 @@ class WatchAddressState extends State<WatchAddress> {
                     //                                   solBalance,
                     //                                   style: GoogleFonts.poppins(
                     //                                     textStyle: TextStyle(
-                    //                                         fontSize: 50, color: Color(0xff00051e)
+                    //                                         fontSize: 50, color: Color(0xff00264E)
                     //                                     ),
                     //                                   ),
                     //                                 );
@@ -192,7 +192,7 @@ class WatchAddressState extends State<WatchAddress> {
                     //                                   '$usdBalance',
                     //                                   style: GoogleFonts.lato(
                     //                                     textStyle: TextStyle(
-                    //                                       fontSize: 25, color: Color(0xff00051e),
+                    //                                       fontSize: 25, color: Color(0xff00264E),
                     //                                       fontWeight: FontWeight.w900,
                     //                                     ),
                     //                                   ),
@@ -221,7 +221,7 @@ class WatchAddressState extends State<WatchAddress> {
                             Column(
                               children: [
                                 SizedBox(height: 40,),
-                                Text("My Wallet Address", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+                                Text("My Wallet Address", style: TextStyle(color: Color(0xff00264E), fontSize: 24, fontWeight: FontWeight.w600)),
                                 SizedBox(height: 40,),
                                 Form(
                                   autovalidateMode: AutovalidateMode.always,
@@ -234,7 +234,7 @@ class WatchAddressState extends State<WatchAddress> {
                                             padding: EdgeInsets.symmetric(vertical: 10),
                                             decoration: BoxDecoration(
                                                 border: Border.all(
-                                                    width: 1, color: Color(0xff00051e)
+                                                    width: 1, color: Color(0xff051150)
                                                 ),
                                                 borderRadius: BorderRadius.circular(5)
                                             ),
@@ -251,7 +251,7 @@ class WatchAddressState extends State<WatchAddress> {
                                                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
                                                     decoration: BoxDecoration(
                                                         borderRadius: BorderRadius.circular(5),
-                                                        color: Color(0xff00051e)
+                                                        color: Color(0xff051150)
                                                     ),
                                                     child: Image.asset('assets/img/icon_qr_code.png'),
                                                   ),
@@ -271,7 +271,7 @@ class WatchAddressState extends State<WatchAddress> {
                                                     },
                                                     // initialValue: (address != null) ? address : "",
                                                   ),
-                                                  // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                                                  // child: Text("str5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w400)),
                                                 ),
 
                                               ],
@@ -299,7 +299,7 @@ class WatchAddressState extends State<WatchAddress> {
                                                 decoration: BoxDecoration(
                                                     borderRadius: BorderRadius.circular(8),
                                                     border: Border.all(
-                                                        width: 2, color: Color(0xff081B2A)
+                                                        width: 2, color: Color(0xff00072c)
                                                     )
                                                 ),
                                                 child:  Row(
@@ -308,7 +308,7 @@ class WatchAddressState extends State<WatchAddress> {
                                                       Icon(Icons.add, size: 20,),
                                                       SizedBox(width: 5,),
                                                       Text(
-                                                        "add wallet", style: TextStyle(color: Color(0xff081B2A), fontSize: 18, fontWeight: FontWeight.w600),
+                                                        "add wallet", style: TextStyle(color: Color(0xff00072c), fontSize: 18, fontWeight: FontWeight.w600),
                                                       ),
                                                     ]
                                                 )
@@ -325,7 +325,7 @@ class WatchAddressState extends State<WatchAddress> {
                                                 decoration: BoxDecoration(
                                                     borderRadius: BorderRadius.circular(8),
                                                     border: Border.all(
-                                                        width: 2, color: Color(0xff081B2A)
+                                                        width: 2, color: Color(0xff051150)
                                                     )
                                                 ),
                                                 child:  Row(
@@ -334,7 +334,7 @@ class WatchAddressState extends State<WatchAddress> {
                                                       Icon(Icons.add, size: 20,),
                                                       SizedBox(width: 5,),
                                                       Text(
-                                                        "create new wallet", style: TextStyle(color: Color(0xff081B2A), fontSize: 18, fontWeight: FontWeight.w600),
+                                                        "create new wallet", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600),
                                                       ),
                                                     ]
                                                 )
@@ -366,7 +366,7 @@ class WatchAddressState extends State<WatchAddress> {
                                           decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(5),
                                               border: Border.all(
-                                                  width: 2, color: Color(0xff081B2A)
+                                                  width: 2, color: Color(0xff051150)
                                               )
                                           ),
                                           child: Column(
@@ -379,12 +379,12 @@ class WatchAddressState extends State<WatchAddress> {
                                                     color: Colors.grey.withOpacity(0.7)
                                                 ),
                                                 child: Text(
-                                                  "A"+ index.toString(), style: TextStyle(color: Color(0xff081B2A), fontSize: 12, fontWeight: FontWeight.w400),
+                                                  "A"+ index.toString(), style: TextStyle(color: Color(0xff051150), fontSize: 12, fontWeight: FontWeight.w400),
                                                 ),
                                               ),
                                               SizedBox(height: 5),
                                               Text(
-                                                store.state.accounts["Account "+ index.toString()]!.accountName, style: TextStyle(color: Color(0xff081B2A), fontSize: 14, fontWeight: FontWeight.w600),
+                                                store.state.accounts["Account "+ index.toString()]!.accountName, style: TextStyle(color: Color(0xff051150), fontSize: 14, fontWeight: FontWeight.w600),
                                               ),
                                             ],
                                           ),
@@ -413,8 +413,8 @@ class WatchAddressState extends State<WatchAddress> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
-                    ],
+                      const Color(0xff051150),
+                    ]
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     stops: [0.0, 0.0],

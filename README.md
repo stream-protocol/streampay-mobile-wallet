@@ -1,4 +1,4 @@
-## Stream Mobile Wallet
+## StreamPay Mobile Wallet
 
 A StreamPay Mobile Wallet in flutter
 
@@ -19,16 +19,3 @@ flutter build android
 ```
 flutter build ios
 ```
-### Future Developments
-
-```
-- Add Stream Token (STR) support
-- Cross-Chain Payments
-- POS Payments, commerce support
-- Better Wallet Features
-- Swap (crypto)
-- Wallet features
-- Solana Pay, QR-code support
-- NFC payment features
-- Chat features, peer-to-peer payment transactions
-- Pay Crypto, bank card features

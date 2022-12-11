@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.solana_wallet">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app.example.stream_wallet">
 	<uses-permission android:name="android.permission.INTERNET" />
 	<queries>
 		<intent>
@@ -6,7 +6,7 @@
 			<data android:scheme="https" />
 		</intent>
 	</queries>
-	<application android:label="streampay" android:icon="@mipmap/launcher_icon">
+	<application android:label="fyfypay" android:icon="@mipmap/launcher_icon">
 		<activity android:name=".MainActivity" android:launchMode="singleTop" android:theme="@style/LaunchTheme" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize">
 			<!--
 			Specifies an Android theme to apply to this Activity as soon as

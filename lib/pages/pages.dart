@@ -30,8 +30,8 @@ class PagesWidget extends StatefulWidget {
 class _PagesWidgetState extends State<PagesWidget> {
 
 
-  Color defaultColor = Color(0xff5e7392);
-  Color activeColor = Color(0xff010f1a);
+  Color defaultColor = Color(0xff051150);
+  Color activeColor = Color(0xff00072c);
   initState() {
     super.initState();
     _selectTab(widget.currentTab);
@@ -68,7 +68,7 @@ class _PagesWidgetState extends State<PagesWidget> {
     return WillPopScope(
       onWillPop: config.App(context).onWillPop,
       child: Scaffold(
-        backgroundColor: Color(0xff000c4d),
+        backgroundColor: Color(0xff051150),
         key: widget.scaffoldKey,
         body: Stack(
           children: [

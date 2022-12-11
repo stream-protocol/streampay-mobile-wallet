@@ -76,7 +76,7 @@ class _SplashWidgetState extends State<SplashPage> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -116,7 +116,7 @@ class _SplashWidgetState extends State<SplashPage> {
               // child:  Row(
               //   mainAxisAlignment: MainAxisAlignment.center,
               //   children: [
-              //     Text("Enter your passcode", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+              //     Text("Enter your passcode", style: TextStyle(color: Color(0xff00264E), fontSize: 24, fontWeight: FontWeight.w600)),
               //   ],
               // )
               child: ListView(
@@ -128,23 +128,23 @@ class _SplashWidgetState extends State<SplashPage> {
                         title: Text(
                           'Enter your passcode',
                           textAlign: TextAlign.center,
-                          style: TextStyle(color: Color(0xff00051e), fontSize: 28),
+                          style: TextStyle(color: Color(0xff051150), fontSize: 28),
                         ),
                         circleUIConfig: CircleUIConfig(
-                            borderColor: Color(0xff00051e),
-                            fillColor: Color(0xff00051e),
+                            borderColor: Color(0xff051150),
+                            fillColor: Color(0xff051150),
                             circleSize: 30),
                         keyboardUIConfig: KeyboardUIConfig(
-                            digitTextStyle: TextStyle(color: Color(0xff00051e), fontSize: 34, fontWeight: FontWeight.w700),
-                            digitBorderWidth: 2, primaryColor: Color(0xff00051e)),
+                            digitTextStyle: TextStyle(color: Color(0xff051150), fontSize: 34, fontWeight: FontWeight.w700),
+                            digitBorderWidth: 2, primaryColor: Color(0xff051150)),
                         cancelButton: Icon(
                           Icons.arrow_back,
-                          color: Color(0xff00051e),
+                          color: Color(0xff051150),
                         ),
                         digits: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
                         deleteButton: Text(
                           'Cancel',
-                          style: const TextStyle(fontSize: 16, color: Color(0xff00051e)),
+                          style: const TextStyle(fontSize: 16, color: Color(0xff051150)),
                           semanticsLabel: 'Delete',
                         ),
                         passwordEnteredCallback: _onPasscodeEntered,
@@ -162,7 +162,7 @@ class _SplashWidgetState extends State<SplashPage> {
                                 textAlign: TextAlign.center,
                                 style: const TextStyle(
                                     fontSize: 16,
-                                    color: Color(0xff00051e),
+                                    color: Color(0xff051150),
                                     fontWeight: FontWeight.w300),
                               ),
                               onPressed: _resetAppPassword,

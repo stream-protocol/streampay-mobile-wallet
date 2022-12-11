@@ -66,7 +66,7 @@ class ReceiveState extends State<ReceiveWidget> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -95,14 +95,14 @@ class ReceiveState extends State<ReceiveWidget> {
                   children: [
                     Column(
                       children: [
-                        Text("Wallet Address", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+                        Text("Wallet Address", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.w600)),
                         SizedBox(height: 20,),
                         Container(
                           width: config.App(context).appWidth(80),
                           padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
                           decoration: BoxDecoration(
                               border: Border.all(
-                                  width: 1, color: Color(0xff00051e)
+                                  width: 1, color: Color(0xff051150)
                               ),
                               borderRadius: BorderRadius.circular(5)
                           ),
@@ -126,7 +126,7 @@ class ReceiveState extends State<ReceiveWidget> {
                                   padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(5),
-                                      color: Color(0xff00051e)
+                                      color: Color(0xff051150)
                                   ),
                                   child: Image.asset('assets/img/icon_copy.png'),
                                 ),
@@ -146,14 +146,14 @@ class ReceiveState extends State<ReceiveWidget> {
                                     }
                                   },
                                   decoration: const InputDecoration(
-                                    hintText: '28v5kipdi...sdewDoS43',
+                                    hintText: 'str5kipdi...sdewDoS43',
                                   ),
                                   onChanged: (String value) async {
                                     print(value);
                                     address = value;
                                   },
                                 ),
-                                // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                                // child: Text("str5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00072c), fontSize: 18, fontWeight: FontWeight.w400)),
                               ),
 
 
@@ -161,7 +161,7 @@ class ReceiveState extends State<ReceiveWidget> {
                           ),
                         ),
                         SizedBox(height: 40,),
-                        Text("QR Code", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+                        Text("QR Code", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.w600)),
                         SizedBox(height: 40,),
                         Container(
                           color: Colors.white,

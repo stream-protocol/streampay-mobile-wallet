@@ -96,11 +96,11 @@ class BaseAccount {
     //main beta net
 
     // var usdcBla = await client.getTokenAccountsByOwner(owner: address,
-    //     mint: "9coG2fjgxy51WA7VEgByHksVVZMTNo1FRqGs9Pn3JjCV", programId: null, commitment: commitment);
+    //     mint: "HoByzSZwEM7FiYd8E8L4PpJR5dxZLdQ1aoPuuyeZqMGN", programId: null, commitment: commitment);
 
     //test net
     var usdcBla = await client.getTokenAccountsByOwner(owner: address,
-        mint: "AnAnZmjmNu3L4SVmJDiniaCf3aNyUZsjKNN6qd183ELH", programId: null, commitment: commitment);
+        mint: "BmP2yh94LU7Zw5kpFM5ciVNttYES6gpk9dGqRrR86F2y", programId: null, commitment: commitment);
 
     if(usdcBla.length > 0 ) {
       List<AssociatedTokenAccount> list = usdcBla.toList();
@@ -124,11 +124,11 @@ class BaseAccount {
     //main beta net
 
     // var usdcBla = await client.getTokenAccountsByOwner(owner: address,
-    //     mint: "9coG2fjgxy51WA7VEgByHksVVZMTNo1FRqGs9Pn3JjCV", programId: null, commitment: commitment);
+    //     mint: "HoByzSZwEM7FiYd8E8L4PpJR5dxZLdQ1aoPuuyeZqMGN", programId: null, commitment: commitment);
 
     //test net
     var usdcBla = await client.getTokenAccountsByOwner(owner: address,
-        mint: "AnAnZmjmNu3L4SVmJDiniaCf3aNyUZsjKNN6qd183ELH", programId: null, commitment: commitment);
+        mint: "BmP2yh94LU7Zw5kpFM5ciVNttYES6gpk9dGqRrR86F2y", programId: null, commitment: commitment);
 
     if(usdcBla.length > 0 ) {
       List<AssociatedTokenAccount> list = usdcBla.toList();
@@ -254,11 +254,11 @@ class WalletAccount extends BaseAccount implements Account {
 
     //main beta net
     // var usdcBla = await client.getTokenAccountsByOwner(owner: address,
-    //     mint: "9coG2fjgxy51WA7VEgByHksVVZMTNo1FRqGs9Pn3JjCV", programId: null, commitment: commitment);
+    //     mint: "HoByzSZwEM7FiYd8E8L4PpJR5dxZLdQ1aoPuuyeZqMGN", programId: null, commitment: commitment);
 
     //test net
     var usdcBla = await clientTemp.getTokenAccountsByOwner(owner: this.address,
-        mint: "AnAnZmjmNu3L4SVmJDiniaCf3aNyUZsjKNN6qd183ELH", programId: null, commitment: commitment);
+        mint: "BmP2yh94LU7Zw5kpFM5ciVNttYES6gpk9dGqRrR86F2y", programId: null, commitment: commitment);
 
     double usdcBalance = 0.0;
     if(usdcBla.length > 0 ) {
@@ -455,7 +455,7 @@ class AppState {
     Wallet wallet = walletAccount.wallet;
     print("778888888888888888888888888");
     print(address);
-    var mintValue = "AnAnZmjmNu3L4SVmJDiniaCf3aNyUZsjKNN6qd183ELH";
+    var mintValue = "BmP2yh94LU7Zw5kpFM5ciVNttYES6gpk9dGqRrR86F2y";
     int lamports = (amount * 1000000).toInt();
     Commitment commitment = Commitment.processed;
 

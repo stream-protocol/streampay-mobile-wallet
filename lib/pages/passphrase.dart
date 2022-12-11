@@ -53,7 +53,7 @@ class PassphraseState extends State<PassphraseWidget> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -90,7 +90,7 @@ class PassphraseState extends State<PassphraseWidget> {
                             width: config.App(context).appWidth(100),
                              child : Column(
                               children: [
-                                Text("Your passphrase", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.bold)),
+                                Text("Your passphrase", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.bold)),
                                 SizedBox(height: 20),
                                 wordList.length > 0
                                 ? SizedBox(
@@ -110,7 +110,7 @@ class PassphraseState extends State<PassphraseWidget> {
                                             return Column(
                                               crossAxisAlignment: CrossAxisAlignment.start,
                                               children: [
-                                                Text((index + 1).toString() + ". " + wordList[index ].toString(), style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                                                Text((index + 1).toString() + ". " + wordList[index ].toString(), style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w400)),
 
                                               ],
                                             );
@@ -128,7 +128,7 @@ class PassphraseState extends State<PassphraseWidget> {
                                             return Column(
                                               crossAxisAlignment: CrossAxisAlignment.start,
                                               children: [
-                                                Text((index + 7).toString() + ". " + wordList[index + 6 ].toString(), style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                                                Text((index + 7).toString() + ". " + wordList[index + 6 ].toString(), style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w400)),
                                               ],
                                             );
                                           },
@@ -151,7 +151,7 @@ class PassphraseState extends State<PassphraseWidget> {
                                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(5),
-                                        color: Color(0xff001064)
+                                        color: Color(0xff1347b1)
                                     ),
                                     child: Text("Copy passphrase",textAlign:TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600)),
                                   ),
@@ -172,7 +172,7 @@ class PassphraseState extends State<PassphraseWidget> {
                               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(5),
-                                  color: Color(0xff001064)
+                                  color: Color(0xff1347b1)
                               ),
                               child: Text("Generate passphrase",textAlign:TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600)),
                             ),
@@ -181,7 +181,7 @@ class PassphraseState extends State<PassphraseWidget> {
                             width:config.App(context).appWidth(70),
                             child: Text(
                               "We do not store pin codes, passwords or passphrase on your behalf. Forgotten codes can only be reseted by using other login method",
-                              textAlign:TextAlign.center, style: TextStyle(color: Color(0xff00051e), fontSize: 17, fontWeight: FontWeight.w400),
+                              textAlign:TextAlign.center, style: TextStyle(color: Color(0xff051150), fontSize: 17, fontWeight: FontWeight.w400),
                             ),
                           ),
 

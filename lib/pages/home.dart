@@ -136,7 +136,7 @@ class SettingsSubPageState extends State<SettingsSubPage> {
           ),
           Card(
             child: ListTile(
-                title: const Text('Stream Protocol'),
+                title: const Text('Made by Stream Protocol'),
                 trailing: Icon(Icons.info_outline)),
           )
         ],

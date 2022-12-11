@@ -78,7 +78,7 @@ Future<void> sendTransactionDialog(
                 child: TextFormField(
                   validator: transactionAmmountValidator,
                   decoration: InputDecoration(
-                    hintText: 'Ammount of SOL',
+                    hintText: 'Ammount of SOLs',
                   ),
                   onChanged: (String value) async {
                     sendAmmount = double.parse(value);

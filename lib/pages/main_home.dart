@@ -37,7 +37,7 @@ class MainState extends State<MainHomeWidget> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,

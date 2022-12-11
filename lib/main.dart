@@ -51,7 +51,7 @@ class App extends StatelessWidget {
     return StoreProvider<AppState>(
       store: this.store,
       child: MaterialApp(
-        title: 'streampay',
+        title: 'StreamPay',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

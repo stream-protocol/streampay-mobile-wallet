@@ -12,6 +12,7 @@ const urlOptions = {
   'Mainnet-beta (default)': 'https://api.mainnet-beta.solana.com',
   'Devnet': 'https://api.devnet.solana.com',
   'Testnet': 'https://api.testnet.solana.com',
+  'Testnet': 'https://api.testnet.streamprotocol.app',
   'Custom': '',
 };
 

@@ -51,7 +51,7 @@ class PinCodeeState extends State<PinCodeWidget> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -82,16 +82,16 @@ class PinCodeeState extends State<PinCodeWidget> {
                       key: pinCodeForm,
                       child: Column(
                         children: [
-                          Text("Set pin code", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.bold)),
+                          Text("Set pin code", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.bold)),
                           SizedBox(height: 20,),
-                          Text("New pin code", style: TextStyle(color: Color(0xff00051e), fontSize: 20, fontWeight: FontWeight.w400)),
+                          Text("New pin code", style: TextStyle(color: Color(0xff051150), fontSize: 20, fontWeight: FontWeight.w400)),
                           SizedBox(height: 20,),
                           Container(
                             width: config.App(context).appWidth(80),
                             padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
                             decoration: BoxDecoration(
                                 border: Border.all(
-                                    width: 1, color: Color(0xff00051e)
+                                    width: 1, color: Color(0xff051150)
                                 ),
                                 borderRadius: BorderRadius.circular(5)
                             ),
@@ -106,7 +106,7 @@ class PinCodeeState extends State<PinCodeWidget> {
                                     return 'Pin code length is not correct';
                                   }
                                 },
-                                style: TextStyle(color: Color(0xff00051e), fontSize: 18 ),
+                                style: TextStyle(color: Color(0xff051150), fontSize: 18 ),
                                 decoration: const InputDecoration(
                                   hintText: '',
                                   enabledBorder: UnderlineInputBorder(
@@ -120,18 +120,18 @@ class PinCodeeState extends State<PinCodeWidget> {
 
                                 },
                               ),
-                              // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                              // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00264E), fontSize: 18, fontWeight: FontWeight.w400)),
                             ),
                           ),
                           SizedBox(height: 40,),
-                          Text("Repeat pin code", style: TextStyle(color: Color(0xff00051e), fontSize: 20, fontWeight: FontWeight.w400)),
+                          Text("Repeat pin code", style: TextStyle(color: Color(0xff051150), fontSize: 20, fontWeight: FontWeight.w400)),
                           SizedBox(height: 20,),
                           Container(
                             width: config.App(context).appWidth(80),
                             padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
                             decoration: BoxDecoration(
                                 border: Border.all(
-                                    width: 1, color: Color(0xff00051e)
+                                    width: 1, color: Color(0xff051150)
                                 ),
                                 borderRadius: BorderRadius.circular(5)
                             ),
@@ -146,7 +146,7 @@ class PinCodeeState extends State<PinCodeWidget> {
                                     return 'Pin code length is not correct';
                                   }
                                 },
-                                style: TextStyle(color: Color(0xff00051e), fontSize: 18 ),
+                                style: TextStyle(color: Color(0xff051150), fontSize: 18 ),
                                 decoration: const InputDecoration(
                                   hintText: '',
                                   enabledBorder: UnderlineInputBorder(
@@ -160,7 +160,7 @@ class PinCodeeState extends State<PinCodeWidget> {
 
                                 },
                               ),
-                              // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                              // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00264E), fontSize: 18, fontWeight: FontWeight.w400)),
                             ),
                           ),
                           SizedBox(height: 60,),
@@ -172,7 +172,7 @@ class PinCodeeState extends State<PinCodeWidget> {
                               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(5),
-                                  color: Color(0xff001064)
+                                  color: Color(0xff1347b1)
                               ),
                               child: Text("Confirm", style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600)),
                             ),
@@ -182,7 +182,7 @@ class PinCodeeState extends State<PinCodeWidget> {
                             width:config.App(context).appWidth(70),
                             child: Text(
                               "We do not store pin codes, passwords or passphrase on your behalf. Forgotten codes can only be reseted by using other login method",
-                              textAlign:TextAlign.center, style: TextStyle(color: Color(0xff00051e), fontSize: 17, fontWeight: FontWeight.w400),
+                              textAlign:TextAlign.center, style: TextStyle(color: Color(0xff051150), fontSize: 17, fontWeight: FontWeight.w400),
                             ),
                           )
 

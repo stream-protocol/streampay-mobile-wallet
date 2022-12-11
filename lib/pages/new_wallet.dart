@@ -67,7 +67,7 @@ class NewWalletState extends State<NewWallet> {
                 padding: EdgeInsets.only(top: config.App(context).appWidth(33)),
                 child: Column(
                   children: [
-                    Text("Balance", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+                    Text("Balance", style: TextStyle(color: Color(0xff00072c), fontSize: 24, fontWeight: FontWeight.w600)),
                     SizedBox(
                       width: config.App(context).appWidth(100),
                       child: Row(
@@ -77,7 +77,7 @@ class NewWalletState extends State<NewWallet> {
                             walletCreated ? solBalance.toString() : "",
                             style: GoogleFonts.poppins(
                               textStyle: TextStyle(
-                                  fontSize: 50, color: Color(0xff00051e)
+                                  fontSize: 50, color: Color(0xff051150)
                               ),
                             ),
                           ),
@@ -94,7 +94,7 @@ class NewWalletState extends State<NewWallet> {
                             walletCreated ? usdcBalance.toString() : "",
                             style: GoogleFonts.poppins(
                               textStyle: TextStyle(
-                                  fontSize: 50, color: Color(0xff00051e)
+                                  fontSize: 50, color: Color(0xff051150)
                               ),
                             ),
                           ),
@@ -108,7 +108,7 @@ class NewWalletState extends State<NewWallet> {
                         walletCreated ? mnemoinicValue : "", textAlign: TextAlign.center,
                         style: GoogleFonts.poppins(
                           textStyle: TextStyle(
-                              fontSize: 16, color: Color(0xff00051e)
+                              fontSize: 16, color: Color(0xff051150)
                           ),
                         ),
                       ),
@@ -130,7 +130,7 @@ class NewWalletState extends State<NewWallet> {
                         Column(
                           children: [
                             SizedBox(height: 40,),
-                            Text("Add Account Name", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+                            Text("Add Account Name", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.w600)),
                             SizedBox(height: 40,),
                             Form(
                               autovalidateMode: AutovalidateMode.always,
@@ -143,7 +143,7 @@ class NewWalletState extends State<NewWallet> {
                                         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
                                         decoration: BoxDecoration(
                                             border: Border.all(
-                                                width: 1, color: Color(0xff00051e)
+                                                width: 1, color: Color(0xff051150)
                                             ),
                                             borderRadius: BorderRadius.circular(5)
                                         ),
@@ -181,7 +181,7 @@ class NewWalletState extends State<NewWallet> {
                                             decoration: BoxDecoration(
                                                 borderRadius: BorderRadius.circular(8),
                                                 border: Border.all(
-                                                    width: 2, color: Color(0xff081B2A)
+                                                    width: 2, color: Color(0xff00072c)
                                                 )
                                             ),
                                             child:  Row(
@@ -190,7 +190,7 @@ class NewWalletState extends State<NewWallet> {
                                                   Icon(Icons.add, size: 20,),
                                                   SizedBox(width: 5,),
                                                   Text(
-                                                    "Create", style: TextStyle(color: Color(0xff081B2A), fontSize: 18, fontWeight: FontWeight.w600),
+                                                    "Create", style: TextStyle(color: Color(0xff00072c), fontSize: 18, fontWeight: FontWeight.w600),
                                                   ),
                                                 ]
                                             )
@@ -217,7 +217,7 @@ class NewWalletState extends State<NewWallet> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,

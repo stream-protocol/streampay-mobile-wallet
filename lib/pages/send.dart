@@ -80,13 +80,13 @@ class SendState extends State<SendWidget> {
                   children: [
                     Column(
                       children: [
-                        Text("Enter Amount", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+                        Text("Enter Amount", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.w600)),
                         SizedBox(height: 20,),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(text != null ? text : "100", style: TextStyle(color: Color(0xff00051e), fontSize: 60, fontWeight: FontWeight.bold)),
-                            Text("\$", style: TextStyle(color: Color(0xff00051e), fontSize: 40,)),
+                            Text(text != null ? text : "100", style: TextStyle(color: Color(0xff051150), fontSize: 60, fontWeight: FontWeight.bold)),
+                            Text("\$", style: TextStyle(color: Color(0xff051150), fontSize: 40,)),
                           ],
                         ),
                       ],
@@ -95,8 +95,8 @@ class SendState extends State<SendWidget> {
                       children: [
                         NumericKeyboard(
                           onKeyboardTap: _onKeyboardTap,
-                          textColor: Color(0xff00051e),
-                          rightIcon: Icon(CupertinoIcons.dot_square_fill, size: 32, color: Color(0xff00051e),),
+                          textColor: Color(0xff051150),
+                          rightIcon: Icon(CupertinoIcons.dot_square_fill, size: 32, color: Color(0xff051150),),
                           rightButtonFn: () {
                             setState(() {
                               if(text.length > 0) {
@@ -105,7 +105,7 @@ class SendState extends State<SendWidget> {
 
                             });
                           },
-                          leftIcon: Icon(Icons.backspace, color: Color(0xff00051e),),
+                          leftIcon: Icon(Icons.backspace, color: Color(0xff00072c),),
                           leftButtonFn: () {
                             setState(() {
                               if(text.length > 0) {
@@ -114,7 +114,7 @@ class SendState extends State<SendWidget> {
 
                             });
                           },
-                          // leftIcon: Icon(Icons.check, color: Color(0xff00051e),),
+                          // leftIcon: Icon(Icons.check, color: Color(0xff051150),),
                           // mainAxisAlignment: MainAxisAlignment.spaceEvenly
                         ),
                         GestureDetector(
@@ -181,7 +181,7 @@ class SendState extends State<SendWidget> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -210,14 +210,14 @@ class SendState extends State<SendWidget> {
   Widget sendDetailBox() {
     return Column(
       children: [
-        Text("Send To", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+        Text("Send To", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.w600)),
         SizedBox(height: 20,),
         Container(
           width: config.App(context).appWidth(80),
           padding: EdgeInsets.symmetric(vertical: 5, horizontal: 15),
           decoration: BoxDecoration(
               border: Border.all(
-                  width: 1, color: Color(0xff00051e)
+                  width: 1, color: Color(0xff051150)
               ),
               borderRadius: BorderRadius.circular(5)
           ),
@@ -254,7 +254,7 @@ class SendState extends State<SendWidget> {
                   },
                   initialValue: (barcodeResult != null) ? barcodeResult : "",
                 ),
-                // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                // child: Text("str5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00072c), fontSize: 18, fontWeight: FontWeight.w400)),
               ),
 
 
@@ -262,7 +262,7 @@ class SendState extends State<SendWidget> {
           ),
         ),
         SizedBox(height: 20,),
-        Text("Or", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w600)),
+        Text("Or", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600)),
         SizedBox(height: 20,),
         GestureDetector(
           onTap: () {
@@ -275,22 +275,22 @@ class SendState extends State<SendWidget> {
             padding: EdgeInsets.symmetric(vertical: 10),
             decoration: BoxDecoration(
                 border: Border.all(
-                    width: 1, color: Color(0xff00051e)
+                    width: 1, color: Color(0xff051150)
                 ),
                 borderRadius: BorderRadius.circular(5)
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset('assets/img/icon_qr_code.png', color: Color(0xff00051e),),
+                Image.asset('assets/img/icon_qr_code.png', color: Color(0xff051150),),
                 SizedBox(width: 30,),
-                Text("Scan QR-Code", style: TextStyle(color: Color(0xff00051e), fontSize: 22, fontWeight: FontWeight.w600)),
+                Text("Scan QR-Code", style: TextStyle(color: Color(0xff051150), fontSize: 22, fontWeight: FontWeight.w600)),
               ],
             ),
           ),
         ),
         SizedBox(height: 40,),
-        Text("Saved Wallets", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+        Text("Saved Wallets", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.w600)),
         Expanded(
           child: ListView(
             children: [
@@ -311,7 +311,7 @@ class SendState extends State<SendWidget> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(5),
                               border: Border.all(
-                                  width: 2, color: Color(0xff081B2A)
+                                  width: 2, color: Color(0xff00072c)
                               )
                           ),
                           child: Column(
@@ -324,12 +324,12 @@ class SendState extends State<SendWidget> {
                                     color: Colors.grey.withOpacity(0.7)
                                 ),
                                 child: Text(
-                                  "A"+ index.toString(), style: TextStyle(color: Color(0xff081B2A), fontSize: 12, fontWeight: FontWeight.w400),
+                                  "A"+ index.toString(), style: TextStyle(color: Color(0xff00072c), fontSize: 12, fontWeight: FontWeight.w400),
                                 ),
                               ),
                               SizedBox(height: 5),
                               Text(
-                                store.state.accounts["Account "+ index.toString()]!.name, style: TextStyle(color: Color(0xff081B2A), fontSize: 14, fontWeight: FontWeight.w600),
+                                store.state.accounts["Account "+ index.toString()]!.name, style: TextStyle(color: Color(0xff00072c), fontSize: 14, fontWeight: FontWeight.w600),
                               ),
                             ],
                           ),
@@ -345,7 +345,7 @@ class SendState extends State<SendWidget> {
                         borderRadius: BorderRadius.circular(5), color: Color(0xffe8e8e8)
                     ),
                     child: Text("Show all saved wallets", textAlign: TextAlign.center,
-                        style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                        style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w400)),
                   ),
                   SizedBox(height: 40,),
                   Row(  mainAxisAlignment : MainAxisAlignment.end,
@@ -374,7 +374,7 @@ class SendState extends State<SendWidget> {
                             margin: EdgeInsets.only(right:  config.App(context).appWidth(10)),
                             padding: EdgeInsets.symmetric(vertical: 10),
                             decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(5), color: Color(0xff00072c)
+                                borderRadius: BorderRadius.circular(5), color: Color(0xff0049b0)
                             ),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -404,21 +404,21 @@ class SendState extends State<SendWidget> {
         isLoading? progress
         :Column(
           children: [
-            Text("Send money", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.w600)),
+            Text("Send money", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.w600)),
             SizedBox(height: 20,),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(text != null ? text : "100", style: TextStyle(color: Color(0xff00051e), fontSize: 60, fontWeight: FontWeight.bold)),
-                Text("\$", style: TextStyle(color: Color(0xff00051e), fontSize: 40,)),
+                Text(text != null ? text : "100", style: TextStyle(color: Color(0xff051150), fontSize: 60, fontWeight: FontWeight.bold)),
+                Text("\$", style: TextStyle(color: Color(0xff051150), fontSize: 40,)),
               ],
             ),
             SizedBox(height: 20,),
-            Icon(CupertinoIcons.arrow_down, size: 36, color: Color(0xff00051e),),
+            Icon(CupertinoIcons.arrow_down, size: 36, color: Color(0xff051150),),
             SizedBox(height: 20,),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 30),
-              child: Text(address, textAlign: TextAlign.center, style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w600)),
+              child: Text(address, textAlign: TextAlign.center, style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600)),
             ),
             SizedBox(height: 20,),
             Container(
@@ -426,7 +426,7 @@ class SendState extends State<SendWidget> {
               padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
               decoration: BoxDecoration(
                   border: Border.all(
-                      width: 1, color: Color(0xff00051e)
+                      width: 1, color: Color(0xff051150)
                   ),
                   borderRadius: BorderRadius.circular(5)
               ),
@@ -447,21 +447,21 @@ class SendState extends State<SendWidget> {
                         ),
                       ),
                     ),
-                    // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                    // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w400)),
                   ),
 
                 ],
               ),
             ),
             SizedBox(height: 10,),
-            Text("Choose Wallet", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+            Text("Choose Wallet", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w400)),
             SizedBox(height: 10,),
             Container(
                 width: config.App(context).appWidth(80),
                 padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
                 decoration: BoxDecoration(
                     border: Border.all(
-                        width: 1, color: Color(0xff00051e)
+                        width: 1, color: Color(0xff051150)
                     ),
                     borderRadius: BorderRadius.circular(5)
                 ),
@@ -470,21 +470,21 @@ class SendState extends State<SendWidget> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Image.asset('assets/img/icon_wallet.png',color: Color(0xff00051e)),
+                        Image.asset('assets/img/icon_wallet.png',color: Color(0xff051150)),
                         SizedBox(
                           width: config.App(context).appWidth(70),
                           child: DropdownButton<String>(
                             underline: SizedBox(),
                             iconSize: 24,
                             elevation: 16,
-                            style: TextStyle(color: Color(0xff00051e)),
-                            icon: Icon(Icons.arrow_forward_ios_rounded , color: Color(0xff00051e),),
+                            style: TextStyle(color: Color(0xff051150)),
+                            icon: Icon(Icons.arrow_forward_ios_rounded , color: Color(0xff051150),),
                             items: store.state.accounts.entries.map((wallet) {
                               return DropdownMenuItem<String>(
                                   value: wallet.key,
                                   child: SizedBox(
                                     width: config.App(context).appWidth(70),
-                                    child : Text(wallet.value.address, style: TextStyle(color: Color(0xff00051e)),),
+                                    child : Text(wallet.value.address, style: TextStyle(color: Color(0xff051150)),),
                                   )
                               );
                             }).toList(),
@@ -510,7 +510,7 @@ class SendState extends State<SendWidget> {
                             height: 50,
                             child: Center(
                               child: Text(selectedWalletAddress, overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(color: Color(0xff00051e), fontSize: 14, fontWeight: FontWeight.w400)),
+                                  style: TextStyle(color: Color(0xff051150), fontSize: 14, fontWeight: FontWeight.w400)),
                             )
                         )
                       ],
@@ -525,7 +525,7 @@ class SendState extends State<SendWidget> {
               width: config.App(context).appWidth(80),
               buttonWidth: config.App(context).appWidth(20),
               color: Colors.white,
-              // buttonColor: Color(0xff00072c),
+              // buttonColor: Color(0xff0049b0),
               dismissible: false,
               initialPosition: SlidableButtonPosition.left,
               label: Container(
@@ -533,7 +533,7 @@ class SendState extends State<SendWidget> {
                 padding: EdgeInsets.symmetric(horizontal: 10),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(5)),
-                  color: Color(0xff00072c),
+                  color: Color(0xff0049b0),
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,

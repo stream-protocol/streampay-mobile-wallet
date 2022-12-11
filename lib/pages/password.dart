@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:streampay/components/network_selector.dart';
+import 'package:steampay/components/network_selector.dart';
 import 'package:streampay/pages/pages.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tuple/tuple.dart';
@@ -46,7 +46,7 @@ class PasswordState extends State<PasswordWidget> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -75,16 +75,16 @@ class PasswordState extends State<PasswordWidget> {
                   children: [
                     Column(
                       children: [
-                        Text("Set password", style: TextStyle(color: Color(0xff00051e), fontSize: 24, fontWeight: FontWeight.bold)),
+                        Text("Set password", style: TextStyle(color: Color(0xff051150), fontSize: 24, fontWeight: FontWeight.bold)),
                         SizedBox(height: 20,),
-                        Text("New password", style: TextStyle(color: Color(0xff00051e), fontSize: 20, fontWeight: FontWeight.w400)),
+                        Text("New password", style: TextStyle(color: Color(0xff051150), fontSize: 20, fontWeight: FontWeight.w400)),
                         SizedBox(height: 20,),
                         Container(
                           width: config.App(context).appWidth(80),
                           padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
                           decoration: BoxDecoration(
                               border: Border.all(
-                                  width: 1, color: Color(0xff00051e)
+                                  width: 1, color: Color(0xff051150)
                               ),
                               borderRadius: BorderRadius.circular(5)
                           ),
@@ -92,7 +92,7 @@ class PasswordState extends State<PasswordWidget> {
                             width: config.App(context).appWidth(50),
                             child:  TextFormField(
 
-                              style: TextStyle(color: Color(0xff00051e), fontSize: 18 ),
+                              style: TextStyle(color: Color(0xff051150), fontSize: 18 ),
                               decoration: const InputDecoration(
                                 hintText: '',
                                 enabledBorder: UnderlineInputBorder(
@@ -106,18 +106,18 @@ class PasswordState extends State<PasswordWidget> {
 
                               },
                             ),
-                            // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                            // child: Text("str5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00072c), fontSize: 18, fontWeight: FontWeight.w400)),
                           ),
                         ),
                         SizedBox(height: 40,),
-                        Text("Repeat password", style: TextStyle(color: Color(0xff00051e), fontSize: 20, fontWeight: FontWeight.w400)),
+                        Text("Repeat password", style: TextStyle(color: Color(0xff051150), fontSize: 20, fontWeight: FontWeight.w400)),
                         SizedBox(height: 20,),
                         Container(
                           width: config.App(context).appWidth(80),
                           padding: EdgeInsets.symmetric(vertical: 5, horizontal: 8),
                           decoration: BoxDecoration(
                               border: Border.all(
-                                  width: 1, color: Color(0xff00051e)
+                                  width: 1, color: Color(0xff051150)
                               ),
                               borderRadius: BorderRadius.circular(5)
                           ),
@@ -133,7 +133,7 @@ class PasswordState extends State<PasswordWidget> {
                                   return null;
                                 }
                               },
-                              style: TextStyle(color: Color(0xff00051e), fontSize: 18 ),
+                              style: TextStyle(color: Color(0xff051150), fontSize: 18 ),
                               decoration: const InputDecoration(
                                 hintText: '',
                                 enabledBorder: UnderlineInputBorder(
@@ -147,7 +147,7 @@ class PasswordState extends State<PasswordWidget> {
 
                               },
                             ),
-                            // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w400)),
+                            // child: Text("str5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00072c), fontSize: 18, fontWeight: FontWeight.w400)),
                           ),
                         ),
                         SizedBox(height: 60,),
@@ -155,7 +155,7 @@ class PasswordState extends State<PasswordWidget> {
                           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(5),
-                            color: Color(0xff001064)
+                            color: Color(0xff1347b1)
                           ),
                           child: Text("Confirm", style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600)),
                         ),
@@ -164,7 +164,7 @@ class PasswordState extends State<PasswordWidget> {
                           width:config.App(context).appWidth(70),
                           child: Text(
                             "We do not store pin codes, passwords or passphrase on your behalf. Forgotten codes can only be reseted by using other login method",
-                            textAlign:TextAlign.center, style: TextStyle(color: Color(0xff00051e), fontSize: 17, fontWeight: FontWeight.w400),
+                            textAlign:TextAlign.center, style: TextStyle(color: Color(0xff051150), fontSize: 17, fontWeight: FontWeight.w400),
                           ),
                         )
 

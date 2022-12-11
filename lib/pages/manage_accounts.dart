@@ -19,7 +19,7 @@ class AccountSubPage extends StatelessWidget {
       length: accounts.length,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("Solana wallet"),
+          title: const Text("Stream Wallet"),
           actions: <Widget>[
             IconButton(
               icon: Icon(
@@ -126,7 +126,7 @@ class SettingsSubPageState extends State<SettingsSubPage> {
             child: InkWell(
               splashColor: Theme.of(context).hoverColor,
               onTap: () async {
-                openURL('https://github.com/marc2332/solana-mobile-wallet');
+                openURL('https://github.com/stream-protocol/stream-mobile-wallet');
               },
               child: ListTile(
                 title: const Text('Contribute'),
@@ -136,7 +136,7 @@ class SettingsSubPageState extends State<SettingsSubPage> {
           ),
           Card(
             child: ListTile(
-                title: const Text('Made by Marc Espín'),
+                title: const Text('Made by Stream Protocol'),
                 trailing: Icon(Icons.info_outline)),
           )
         ],

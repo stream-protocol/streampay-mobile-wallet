@@ -56,7 +56,7 @@ class SettingsState extends State<SettingsWidget> {
                 gradient: LinearGradient(
                     colors: [
                       const Color(0xff00072c),
-                      const Color(0xff000c4d),
+                      const Color(0xff051150),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -78,7 +78,7 @@ class SettingsState extends State<SettingsWidget> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "Application login method".toUpperCase(), style: TextStyle(color: Color(0xff00051e), fontSize: 22, fontWeight: FontWeight.w600),
+                      "Application login method".toUpperCase(), style: TextStyle(color: Color(0xff051150), fontSize: 22, fontWeight: FontWeight.w600),
                     ),
                     SizedBox(height: 30,),
                     GestureDetector(
@@ -99,7 +99,7 @@ class SettingsState extends State<SettingsWidget> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(8),
                               border: Border.all(
-                                  width: 1, color: Color(0xff00051e)
+                                  width: 1, color: Color(0xff051150)
                               )
                           ),
                           child:  Row(
@@ -113,7 +113,7 @@ class SettingsState extends State<SettingsWidget> {
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.all(Radius.circular(5)),
                                         border: Border.all(
-                                            color: Color(0xff00051e), width: 1
+                                            color: Color(0xff051150), width: 1
                                         )
                                     ),
                                     child: Center(
@@ -124,7 +124,7 @@ class SettingsState extends State<SettingsWidget> {
                                   ),
                                   SizedBox(width: 10,),
                                   Text(
-                                    "Pin code", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w600),
+                                    "Pin code", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600),
                                   ),
                                 ],
                               ),
@@ -152,7 +152,7 @@ class SettingsState extends State<SettingsWidget> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(8),
                               border: Border.all(
-                                  width: 1, color: Color(0xff00051e)
+                                  width: 1, color: Color(0xff051150)
                               )
                           ),
                           child:  Row(
@@ -166,7 +166,7 @@ class SettingsState extends State<SettingsWidget> {
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.all(Radius.circular(5)),
                                         border: Border.all(
-                                            color: Color(0xff00051e), width: 1
+                                            color: Color(0xff051150), width: 1
                                         )
                                     ),
                                     child: Center(
@@ -177,7 +177,7 @@ class SettingsState extends State<SettingsWidget> {
                                   ),
                                   SizedBox(width: 10,),
                                   Text(
-                                    "Password", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w600),
+                                    "Password", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600),
                                   ),
                                 ],
                               ),
@@ -205,7 +205,7 @@ class SettingsState extends State<SettingsWidget> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(8),
                               border: Border.all(
-                                  width: 1, color: Color(0xff00051e)
+                                  width: 1, color: Color(0xff051150)
                               )
                           ),
                           child:  Row(
@@ -219,7 +219,7 @@ class SettingsState extends State<SettingsWidget> {
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.all(Radius.circular(5)),
                                         border: Border.all(
-                                            color: Color(0xff00051e), width: 1
+                                            color: Color(0xff051150), width: 1
                                         )
                                     ),
                                     child: Center(
@@ -230,7 +230,7 @@ class SettingsState extends State<SettingsWidget> {
                                   ),
                                   SizedBox(width: 10,),
                                   Text(
-                                    "Passphrase", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w600),
+                                    "Passphrase", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600),
                                   ),
                                 ],
                               ),
@@ -245,7 +245,7 @@ class SettingsState extends State<SettingsWidget> {
                       width:config.App(context).appWidth(70),
                       child: Text(
                         "We do not store pin codes, passwords or passphrase on your behalf. Forgotten codes can only be reseted by using other login method",
-                        textAlign:TextAlign.center, style: TextStyle(color: Color(0xff00051e), fontSize: 17, fontWeight: FontWeight.w400),
+                        textAlign:TextAlign.center, style: TextStyle(color: Color(0xff051150), fontSize: 17, fontWeight: FontWeight.w400),
                       ),
                     )
                   ],
@@ -269,14 +269,14 @@ class SettingsState extends State<SettingsWidget> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(8),
                               border: Border.all(
-                                  width: 2, color: Color(0xff00051e)
+                                  width: 2, color: Color(0xff051150)
                               )
                           ),
                           child:  Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                "Security Settings", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w600),
+                                "Security Settings", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600),
                               ),
                               Icon(CupertinoIcons.right_chevron, color: Colors.black87,)
 
@@ -297,14 +297,14 @@ class SettingsState extends State<SettingsWidget> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(8),
                               border: Border.all(
-                                  width: 2, color: Color(0xff00051e)
+                                  width: 2, color: Color(0xff051150)
                               )
                           ),
                           child:  Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                "Log Out", style: TextStyle(color: Color(0xff00051e), fontSize: 18, fontWeight: FontWeight.w600),
+                                "Log Out", style: TextStyle(color: Color(0xff051150), fontSize: 18, fontWeight: FontWeight.w600),
                               ),
                               Icon(CupertinoIcons.right_chevron, color: Colors.black87,)
 
