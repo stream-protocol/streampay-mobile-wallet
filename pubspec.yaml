@@ -1,4 +1,4 @@
-name: StreamPay Mobile Wallet
+name: stream_pay_mobile_wallet
 description: A StreamPay Mobile Wallet
 
 publish_to: 'none'
@@ -15,7 +15,7 @@ dependencies:
   passcode_screen: ^2.0.0
   solana: 
     git: 
-      url: git://github.com/cryptoplease/cryptoplease-dart.git
+      url: git@github.com:stream-protocol/cryptoplease-dart.git
       path: packages/solana
   redux: ^5.0.0
   flutter_redux: ^0.8.2
