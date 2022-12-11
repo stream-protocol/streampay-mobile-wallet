@@ -120,7 +120,7 @@ class PinCodeeState extends State<PinCodeWidget> {
 
                                 },
                               ),
-                              // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00264E), fontSize: 18, fontWeight: FontWeight.w400)),
+                              // child: Text("str5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00072c), fontSize: 18, fontWeight: FontWeight.w400)),
                             ),
                           ),
                           SizedBox(height: 40,),
@@ -160,7 +160,7 @@ class PinCodeeState extends State<PinCodeWidget> {
 
                                 },
                               ),
-                              // child: Text("28v5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00264E), fontSize: 18, fontWeight: FontWeight.w400)),
+                              // child: Text("str5kipdi...sdewDoS43", style: TextStyle(color: Color(0xff00072c), fontSize: 18, fontWeight: FontWeight.w400)),
                             ),
                           ),
                           SizedBox(height: 60,),
